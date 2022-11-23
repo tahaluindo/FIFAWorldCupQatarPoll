@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ranking-1 {
+  position: relative;
+}
+
+.ranking-1::before {
+  content: "👑";
+  font-size: 1.5em;
+  position: absolute;
+  white-space: pre;
+  display: inline;
+  top: 6px;
+  left: 8px;
+  transform: translate(-50%, -22px) rotate(-30deg);
+}
